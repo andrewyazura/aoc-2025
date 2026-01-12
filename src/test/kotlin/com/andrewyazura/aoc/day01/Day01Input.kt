@@ -1,4 +1,4 @@
-package com.andrewyazura.aoc
+package com.andrewyazura.aoc.day01
 
 val day01Input = """
     L47

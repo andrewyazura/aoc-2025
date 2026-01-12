@@ -1,12 +1,13 @@
-package com.andrewyazura.aoc
+package com.andrewyazura.aoc.day01
 
 import kotlin.math.abs
 
 typealias Day01Input = List<Pair<String, Int>>
 
-fun parseInputData(rawData: String): Day01Input = rawData.lineSequence().map { line ->
-    line.take(1) to line.drop(1).toInt()
-}.toList()
+fun parseInputData(rawData: String): Day01Input =
+    rawData.lineSequence().map { line ->
+        line.take(1) to line.drop(1).toInt()
+    }.toList()
 
 fun solvePart1(input: Day01Input): Int =
     input.fold((50 to 0)) { acc, (direction, steps) ->

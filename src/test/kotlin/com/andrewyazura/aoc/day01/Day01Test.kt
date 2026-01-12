@@ -1,4 +1,4 @@
-package com.andrewyazura.aoc
+package com.andrewyazura.aoc.day01
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
